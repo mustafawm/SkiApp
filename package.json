@@ -1,0 +1,30 @@
+{
+    "name": "newlyn",
+    "version": "1.0.0",
+    "main": "main.js",
+    "author": "mustafa",
+    "license": "MIT",
+    "scripts": {
+        "start": "webpack-dev-server"
+    },
+    "dependencies": {
+        "react": "^15.4.1",
+        "react-dom": "^15.4.1"
+    },
+    "devDependencies": {
+        "autoprefixer-loader": "^3.2.0",
+        "babel-cli": "^6.18.0",
+        "babel-loader": "^6.2.10",
+        "babel-preset-latest": "^6.16.0",
+        "babel-preset-react": "^6.16.0",
+        "babel-preset-stage-0": "^6.16.0",
+        "babel-preset-stage-2": "^6.18.0",
+        "css-loader": "^0.26.1",
+        "json-loader": "^0.5.4",
+        "node-sass": "^4.1.1",
+        "sass-loader": "^4.1.1",
+        "style-loader": "^0.13.1",
+        "webpack": "^1.14.0",
+        "webpack-dev-server": "^1.16.2"
+    }
+}
