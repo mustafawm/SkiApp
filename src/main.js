@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import {hello, bye} from './components/libs';
+import SkiDayCount from './components/SkiDayCount';
+
+window.React = React;
 
 ReactDOM.render(
-    <div>
-        {hello}
-        {bye}
-    </div>,
+    <SkiDayCount total={50} powder={20}
+                 backcountry={10} goal={100}
+    />,
     document.getElementById('app')
-)
+);
