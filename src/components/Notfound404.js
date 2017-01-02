@@ -1,0 +1,1 @@
+export default () => <h1>Error 404: route not found!</h1>
